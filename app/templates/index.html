@@ -1,0 +1,14 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - MultiForm</title>
+        {% else %}
+        <title>Welcome to MultiForm</title>
+        {% endif %}
+    </head>
+    <body>
+    <div>
+            <a href="{{ url_for('multiform') }}">Call forms in one page</a>
+         </div>
+    </body>
+</html>
